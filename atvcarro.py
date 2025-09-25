@@ -20,17 +20,14 @@ class Carro:
         return (f"{self.marca} {self.modelo} ({self.ano}) - "
                 f"Cor: {self.cor}, Velocidade: {self.velocidade} km/h.")
     
-    carro1 = Carro1("Toyota", "Corolla", 2020, "Preto")
-    carro1 = Carro2("Honda", "Civic", 2019, "Vermelho")
+    carro1 = Carro("Toyota", "Corolla", 2020, "Preto")
+    carro1 = Carro("Honda", "Civic", 2019, "Vermelho")
 
-    print(Carro1.detalhes ())
-    print(Carro2.detalhes ())
-
+    print(carro1.detalhes ())
+    print(carro2.detalhes ())
     Carro1.acelerar(50)
     Carro2.acelerar(30)
-
     Carro1.frear(20)
     Carro2.frear(15)
-
-    print(Carro1.detalhes ())
-    print(Carro2.detalhes ())
+    print(carro1.detalhes ())
+    print(carro2.detalhes ())
