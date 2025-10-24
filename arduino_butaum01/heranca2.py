@@ -20,7 +20,7 @@ class Aluno(Pessoa):
         self.matricula = matricula
         self.cpf = cpf
 
-        def apresentar(self):
+    def apresentar(self):
             return f"meu nome {self.nome} minha matricula {self.matricula} meu cpf {self.cpf}."
 
     def apresentar(self) -> str:
