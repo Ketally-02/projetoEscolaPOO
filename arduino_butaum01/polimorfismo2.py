@@ -8,7 +8,7 @@ class Carro(Transporte):
 
 class Bicicleta (Transporte):
     def mover(self):
-        print("A bicicleta está pedalando no parque.")
+        print("A bicicleta está se movendo no parque.")
 
 class Avião (Transporte):
     def mover(self):
